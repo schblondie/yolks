@@ -46,4 +46,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/schblondie-jexactyl/yolks:java_${{ matrix.tag }}
+            ghcr.io/schblondie/yolks:java_${{ matrix.tag }}
